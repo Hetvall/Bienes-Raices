@@ -1,0 +1,20 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "gulp",
+			"task": "css",
+			"problemMatcher": [
+				"$node-sass"
+			],
+			"label": "gulp: css"
+		},
+		{
+			"type": "npm",
+			"script": "dev",
+			"problemMatcher": [],
+			"label": "npm: dev",
+			"detail": "gulp"
+		}
+	]
+}
